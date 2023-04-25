@@ -1,0 +1,272 @@
+body,
+h1,
+h2,
+p,
+ul,
+li,
+span {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  color: #222;
+  background-color: #d3cfcf;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+/* CSS RESETADO */
+
+/* MENU */
+
+.menu-logo {
+  width: 90px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu-bg {
+  background: #000000;
+  border-bottom: 2px solid salmon;
+}
+.menu {
+  max-width: 960px;
+  max-height: 90px;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu a {
+  color: white;
+}
+
+.menu-logo a {
+  font-size: 2.2em;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.menu-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-nav a {
+  font-size: 1.25em;
+  display: block;
+  padding: 10px;
+}
+.menu-nav a:hover {
+  color: #fa4747;
+  /* text-decoration: underline; */
+}
+.menu-nav a {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+/* introdução */
+
+.introducao {
+  font-size: 3em;
+  line-height: 1;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  border-bottom: 2px solid #f8593d;
+}
+.linkedinref {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 12px;
+}
+.linkedinref img {
+  border-radius: 50%;
+  border: 2px solid rgb(230, 1, 1);
+  max-width: 300px;
+}
+@media (max-width: 1029px) {
+  .linkedinref {
+    justify-content: center;
+    display: flex;
+    /* flex-wrap: wrap; */
+  }
+  .linkedinref img {
+    max-width: 300px;
+    padding: 10px;
+    border: none;
+  }
+}
+
+.sobre P {
+  padding: 10px;
+  border-bottom: 4px solid #f8593d;
+}
+.tec {
+  text-align: center;
+  font-weight: bold;
+}
+.sobre1 {
+  padding: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+.container-imagem {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex: 1;
+  justify-content: center;
+  max-width: 100%;
+}
+.container-imagem img {
+  border: 2px solid rgb(170, 168, 168);
+}
+
+.tecnologiaimg {
+  padding: 10px;
+  width: 200px;
+  overflow: visible;
+}
+.tecnologiaimg:hover {
+  width: 250px;
+  animation: normal;
+}
+.container-emcontrucao {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.container-emcontrucao h2 {
+  padding: 10px;
+  text-align: center;
+}
+
+.container-emcontrucao img {
+  width: 400px;
+}
+
+.pj2 {
+  width: 263px;
+  height: 400px;
+}
+
+.projeto h1 {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 3px solid #f8593d;
+  border-top: 3px solid #f8593d;
+}
+@media (max-width: 800px) {
+  .container-emcontrucao h2 {
+    padding: 15px;
+    text-align: center;
+  }
+}
+.bd {
+  padding: 10px;
+  border-bottom: 2px solid #f8593d;
+}
+.contato {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  align-items: center;
+  padding: 13px;
+}
+.contato input {
+  display: flex;
+  /* padding: 2px; */
+  border-radius: 8px;
+  /* border: none; */
+}
+
+.contato textarea {
+  margin-bottom: 10px;
+  border-radius: 6px;
+  /* border: none; */
+}
+.fild {
+  border-color: salmon;
+  width: 30%;
+}
+
+.contato label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.3rem;
+}
+
+.contato h1,
+span {
+  padding: 3px;
+}
+button {
+  display: flex;
+  padding: 4px;
+  background: #a3a1a1;
+}
+.btn1 {
+  display: flex;
+  justify-content: end;
+}
+
+.footer1 {
+  padding-top: 13px;
+  border-top: 3px solid #e06e5a;
+  max-width: 100%;
+  height: 90px;
+  background-color: black;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  flex-wrap: wrap;
+}
+
+svg {
+  width: 60px;
+}
+
+.final {
+  max-width: 100%;
+  height: 90px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
